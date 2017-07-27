@@ -162,7 +162,10 @@ public class MagicValues {
         register(PlayerState.LEAVE_BED, 2);
         register(PlayerState.START_SPRINTING, 3);
         register(PlayerState.STOP_SPRINTING, 4);
-        register(PlayerState.RIDING_JUMP, 5);
+        register(PlayerState.START_HORSE_JUMP, 5);
+        register(PlayerState.STOP_HORSE_JUMP, 6);
+        register(PlayerState.OPEN_HORSE_INVENTORY, 7);
+        register(PlayerState.START_ELYTRA_FLYING, 8);
 
         register(InteractAction.INTERACT, 0);
         register(InteractAction.ATTACK, 1);
@@ -673,6 +676,9 @@ public class MagicValues {
         register(Particle.END_ROD, 43);
         register(Particle.DAMAGE_INDICATOR, 44);
         register(Particle.SWEEP_ATTACK, 45);
+        register(Particle.FALLING_DUST, 46);
+        register(Particle.TOTEM, 47);
+        register(Particle.SPIT, 48);
 
         register(NoteBlockValueType.HARP, 0);
         register(NoteBlockValueType.DOUBLE_BASS, 1);
