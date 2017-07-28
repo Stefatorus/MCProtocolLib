@@ -25,19 +25,6 @@
 		<url>git@github.com:Steveice10/MCProtocolLib/</url>
 	</scm>
 
-	<distributionManagement>
-		<repository>
-			<id>spacehq</id>
-			<name>spacehq-releases</name>
-			<url>http://repo.spacehq.org/content/repositories/release/</url>
-		</repository>
-		<snapshotRepository>
-			<id>spacehq</id>
-			<name>spacehq-snapshots</name>
-			<url>http://repo.spacehq.org/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<developers>
 		<developer>
 			<id>steveice10</id>
@@ -46,16 +33,12 @@
 		</developer>
 	</developers>
 
-	<repositories>
-		<repository>
-			<id>spacehq-releases</id>
-			<url>http://repo.spacehq.org/content/repositories/release/</url>
-		</repository>
-		<repository>
-			<id>spacehq-snapshots</id>
-			<url>http://repo.spacehq.org/content/repositories/snapshots/</url>
-		</repository>
-	</repositories>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -64,21 +47,21 @@
 	<!-- Dependencies -->
 	<dependencies>
 		<dependency>
-			<groupId>org.spacehq</groupId>
+			<groupId>com.github.mareckoo01</groupId>
 			<artifactId>opennbt</artifactId>
-			<version>1.4</version>
+			<version>1.7.7-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.spacehq</groupId>
+			<groupId>com.github.mareckoo01</groupId>
 			<artifactId>packetlib</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.7.7-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
         <dependency>
-            <groupId>org.spacehq</groupId>
+            <groupId>com.github.mareckoo01</groupId>
             <artifactId>mcauthlib</artifactId>
-            <version>1.0</version>
+            <version>1.7.7-SNAPSHOT</version>
         </dependency>
 	</dependencies>
 
