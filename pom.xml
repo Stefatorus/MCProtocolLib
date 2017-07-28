@@ -37,47 +37,30 @@
         </developer>
     </developers>
 
-    <distributionManagement>
-        <repository>
-            <id>spacehq</id>
-            <name>spacehq-releases</name>
-            <url>https://repo.spacehq.org/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>spacehq</id>
-            <name>spacehq-snapshots</name>
-            <url>https://repo.spacehq.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <repositories>
         <repository>
-            <id>spacehq-releases</id>
-            <url>https://repo.spacehq.org/content/repositories/releases/</url>
-        </repository>
-        <repository>
-            <id>spacehq-snapshots</id>
-            <url>https://repo.spacehq.org/content/repositories/snapshots/</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>org.spacehq</groupId>
+            <groupId>com.github.mareckoo01</groupId>
             <artifactId>opennbt</artifactId>
-            <version>1.0</version>
+            <version>1.9-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.spacehq</groupId>
+            <groupId>com.github.mareckoo01</groupId>
             <artifactId>packetlib</artifactId>
-            <version>1.0</version>
+            <version>1.9-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.spacehq</groupId>
+            <groupId>com.github.mareckoo01</groupId>
             <artifactId>mcauthlib</artifactId>
-            <version>1.0</version>
+            <version>1.9-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
