@@ -54,7 +54,7 @@
         <dependency>
             <groupId>com.github.mareckoo01</groupId>
             <artifactId>packetlib</artifactId>
-            <version>1.9-SNAPSHOT</version>
+            <version>1.11-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
