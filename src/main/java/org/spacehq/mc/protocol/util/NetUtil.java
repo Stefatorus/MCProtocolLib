@@ -42,7 +42,7 @@ public class NetUtil {
         if(b == 0) {
             return null;
         } else {
-            return (CompoundTag) NBTIO.readTag(new DataInputStream(new NetInputStream(in, b)));
+            return (CompoundTag) NBTIO.readTag(new DataInputStream(new NetInputStream(in, b)), false);
         }
     }
 
@@ -50,7 +50,7 @@ public class NetUtil {
         if(tag == null) {
             out.writeByte(0);
         } else {
-            NBTIO.writeTag(new DataOutputStream(new NetOutputStream(out)), tag);
+            NBTIO.writeTag(new DataOutputStream(new NetOutputStream(out)), tag, false);
         }
     }
 
