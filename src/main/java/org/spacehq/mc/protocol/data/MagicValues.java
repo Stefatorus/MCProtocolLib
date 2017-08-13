@@ -832,11 +832,20 @@ public class MagicValues {
                         if(num.doubleValue() == num2.doubleValue()) {
                             return (T) key;
                         }
-                    }
+                    } else if(String.class.isAssignableFrom(val.getClass()) && String.class.isAssignableFrom(value.getClass())){
+						String str = (String) val;
+						String str2 = (String) value;
+						if(str.equalsIgnoreCase(str2)) {
+							return (T) key;
+						}
+					}
                 }
             }
         }
-
+		if(keyType.getName().contains("NameTagVisibility")){
+			//doing thins because i'm not sure why sometimes the value is nothing
+			return (T) NameTagVisibility.ALWAYS;
+		}
         throw new IllegalArgumentException("Value " + value + " has no mapping for key class " + keyType.getName() + ".");
     }
 
