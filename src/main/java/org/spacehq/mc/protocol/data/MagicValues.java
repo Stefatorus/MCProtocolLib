@@ -843,7 +843,7 @@ public class MagicValues {
             }
         }
 		if(keyType.getName().contains("NameTagVisibility")){
-			//doing thins because i'm not sure why sometimes the value is nothing
+			//doing this because i'm not sure why sometimes the value is nothing
 			return (T) NameTagVisibility.ALWAYS;
 		}
         throw new IllegalArgumentException("Value " + value + " has no mapping for key class " + keyType.getName() + ".");
