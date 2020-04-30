@@ -185,7 +185,7 @@ public class ServerListener extends SessionAdapter {
                 handler.loggedIn(this.session);
             }
 
-            new Thread(new KeepAliveTask(this.session)).start();
+            // new Thread(new KeepAliveTask(this.session)).start();
         }
     }
 
