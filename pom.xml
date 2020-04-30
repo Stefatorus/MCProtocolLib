@@ -8,8 +8,8 @@
     <packaging>jar</packaging>
 
     <name>MCProtocolLib</name>
-    <description>A library for communicating with a Minecraft client or server.</description>
-    <url>http://github.com/Steveice10/MCProtocolLib/</url>
+    <description>A library for communicating with a Minecraft client or server. Modified for performance</description>
+    <url>http://github.com/Stefatorus/MCProtocolLib/</url>
 
     <scm>
         <connection>scm:git:git@github.com:Steveice10/MCProtocolLib.git</connection>
