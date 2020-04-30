@@ -52,9 +52,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.mareckoo01</groupId>
-            <artifactId>packetlib</artifactId>
-            <version>1.11-SNAPSHOT</version>
+	   <groupId>com.github.Stefatorus</groupId>
+	   <artifactId>PacketLib</artifactId>
+	   <version>1.11-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
